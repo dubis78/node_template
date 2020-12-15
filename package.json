@@ -1,8 +1,8 @@
 {
-  "name": "react",
+  "name": "node-template",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": ["react", "starter"],
+  "description": "",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "react": "17.0.0",
@@ -10,6 +10,11 @@
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "react-test-renderer": "^17.0.1",
     "typescript": "3.8.3"
   },
   "scripts": {
@@ -18,5 +23,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
